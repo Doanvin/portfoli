@@ -1,0 +1,11 @@
+$light-grey: #dfdfdf;
+
+.section--logos {
+  background-color: $light-grey;
+
+  .section__logo-box {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
