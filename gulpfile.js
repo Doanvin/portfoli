@@ -50,7 +50,7 @@ gulp.task('html', function() {
 gulp.task('img', function() {
   return gulp.src('src/assets/img/**/*')
 
-    .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
+    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
     .pipe(gulp.dest('build/assets/img'))
     .pipe(reload({stream:true}));
 });
