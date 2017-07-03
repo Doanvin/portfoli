@@ -1,3 +1,6 @@
+$card-bg-color: #46b6ac;
+$white: #fff;
+
 .portfolio--cards {
   .portfolio__item {
     // display: inline-block;
@@ -9,8 +12,8 @@
     }
 
     .mdl-card__title {
-      color: #fff;
-      background: url('/assets/img/dog.png') bottom right 15% no-repeat #46B6AC;
+      background: url('/assets/img/dog.png') bottom right 15% no-repeat $card-bg-color;
+      color: $white;
     }
   }
 }

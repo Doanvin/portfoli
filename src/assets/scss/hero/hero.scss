@@ -9,17 +9,9 @@ $white: #fff;
 
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-480.jpg');
-    }
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .hero--home {
-    background-image: url('/assets/img/lake-tahoe-768.jpg');
-
-    .hero__bg-container {
       h1 {
-        font-size: 56px;
+        font-size: 48px;
         letter-spacing: -.02em;
         line-height: 1.35;
         margin: 24px 0;
@@ -29,7 +21,23 @@ $white: #fff;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 481px) {
+  .hero--home {
+    .hero__title h1 {
+      font-size: 56px;
+      letter-spacing: -.02em;
+      line-height: 1.35;
+      margin: 24px 0;
+      padding: 14rem 0 1rem;
+    }
+
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-768.jpg');
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
   .hero--home {
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-1024.jpg');
@@ -39,21 +47,29 @@ $white: #fff;
         letter-spacing: -.03em;
         line-height: 1.25;
         margin: 24px 0;
-        padding: 15rem 0 1rem;
+        padding: 15rem 0 1.5rem;
       }
     }
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .hero--home {
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-1200.jpg');
+
+      h1 {
+        font-size: 78px;
+        letter-spacing: -.03em;
+        line-height: 1.25;
+        margin: 24px 0;
+        padding: 15rem 0 2rem;
+      }
     }
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1200px) {
   .hero--home {
     h1 {
       font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -61,6 +77,7 @@ $white: #fff;
       font-weight: 300;
       letter-spacing: -.04em;
       line-height: 1;
+      padding: 17rem 0 3rem;
     }
 
     .hero__bg-container {
@@ -105,9 +122,5 @@ $white: #fff;
 
   @media only screen and (min-width: 500px) {
     .hero__btn {margin: 0 12px 12px;}
-  }
-
-  @media only screen and (min-width: 900px) {
-    h1 {padding: 20rem 0 1rem;}
   }
 }
