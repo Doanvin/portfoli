@@ -18,7 +18,7 @@ gulp.task('js', function(){
   gulp.src(['src/assets/js/*.js'])
   .pipe(plumber())
   .pipe(concat('bundle.js'))
-  .pipe(gulp.dest('build/js'))
+  .pipe(gulp.dest('build/assets/js'))
   .pipe(rename({ suffix: '.min' }))
   .pipe(uglify())
   .pipe(gulp.dest('build/assets/js'))
@@ -48,7 +48,7 @@ gulp.task('html', function() {
 
 // Img Task
 gulp.task('img', function() {
-  return gulp.src('src/img/**/*')
+  return gulp.src('src/assets/img/**/*')
 
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('build/assets/img'))
