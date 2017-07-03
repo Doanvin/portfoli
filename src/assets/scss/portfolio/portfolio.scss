@@ -1,0 +1,16 @@
+.portfolio--cards {
+  .portfolio__item {
+    // display: inline-block;
+    // margin: 0 auto;
+
+    .mdl-card {
+      height: 320px;
+      width: 100%;
+    }
+
+    .mdl-card__title {
+      color: #fff;
+      background: url('/assets/img/dog.png') bottom right 15% no-repeat #46B6AC;
+    }
+  }
+}

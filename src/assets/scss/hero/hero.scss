@@ -1,9 +1,12 @@
+$dark-blue: rgba(0, 67, 115, 0.91);
 $transparent-3: rgba(38, 40, 0, 0.3);
 $white: #fff;
 
 
 @media only screen and (max-width: 480px) {
   .hero--home {
+    h1 {padding: 8rem 0 1rem;}
+
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-480.jpg');
     }
@@ -12,8 +15,16 @@ $white: #fff;
 
 @media only screen and (max-width: 768px) {
   .hero--home {
+    background-image: url('/assets/img/lake-tahoe-768.jpg');
+
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-768.jpg');
+      h1 {
+        font-size: 56px;
+        letter-spacing: -.02em;
+        line-height: 1.35;
+        margin: 24px 0;
+        padding: 11rem 0 1rem;
+      }
     }
   }
 }
@@ -22,6 +33,14 @@ $white: #fff;
   .hero--home {
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-1024.jpg');
+
+      h1 {
+        font-size: 78px;
+        letter-spacing: -.03em;
+        line-height: 1.25;
+        margin: 24px 0;
+        padding: 15rem 0 1rem;
+      }
     }
   }
 }
@@ -36,6 +55,14 @@ $white: #fff;
 
 @media only screen and (min-width: 1600px) {
   .hero--home {
+    h1 {
+      font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+      font-size: 100px;
+      font-weight: 300;
+      letter-spacing: -.04em;
+      line-height: 1;
+    }
+
     .hero__bg-container {
       background-image: url('/assets/img/lake-tahoe-1600.jpg');
     }
@@ -56,24 +83,31 @@ $white: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
-    height: 75vh;
+    height: 80vh;
     width: 100%;
   }
 
   .hero__bg-container-overlay {
     background-color:  $transparent-3;
     color: $white;
-    height: 75vh;
+    height: 80vh;
     margin: -24px 0 0;
   }
 
   .hero__btn {
     display: inline-block;
     margin: 0 6px 12px;
+
+    .hero__btn--blue a:hover {
+      background-color: $dark-blue;
+    }
   }
 
   @media only screen and (min-width: 500px) {
-    h1 {padding: 10rem 0 1rem;}
     .hero__btn {margin: 0 12px 12px;}
+  }
+
+  @media only screen and (min-width: 900px) {
+    h1 {padding: 20rem 0 1rem;}
   }
 }
