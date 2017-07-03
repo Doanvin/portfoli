@@ -1,32 +1,43 @@
-$transparent-3: rgba(0, 0, 0, .3);
+$transparent-3: rgba(255, 231, 102, 0.3);
+
 
 @media only screen and (max-width: 480px) {
   .hero--home {
-    background-image: url('assets/img/lake-tahoe-480.jpg');
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-480.jpg');
+    }
   }
 }
 
-@media only and screen (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hero--home {
-    background-image: url('assets/img/lake-tahoe-768.jpg');
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-768.jpg');
+    }
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .hero--home {
-    background-image: url('assets/img/lake-tahoe-1024.jpg');
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-1024.jpg');
+    }
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .hero--home {
-    background-image: url('assets/img/lake-tahoe-1200.jpg');
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-1200.jpg');
+    }
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .hero--home {
-    background-image: url('assets/img/lake-tahoe-1600.jpg');
+    .hero__bg-container {
+      background-image: url('/assets/img/lake-tahoe-1600.jpg');
+    }
   }
 }
 

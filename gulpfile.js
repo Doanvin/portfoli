@@ -66,12 +66,11 @@ gulp.task('browser-sync', function() {
 
 // Watch Task
 gulp.task('live',  ['browser-sync'], function() {
-
     // Watch scss, js, img, html files
-    gulp.watch('src/sass/style.scss', ['sass']);
-    gulp.watch('src/js/*.js', ['js']);
-    gulp.watch('src/img/**/*', ['img']);
-    gulp.watch('src/**/*.html', ['html']);
+    gulp.watch('src/assets/scss/**/*', ['sass']);
+    gulp.watch('src/assets/js/*.js', ['js']);
+    gulp.watch('src/assets/img/**/*', ['img']);
+    gulp.watch('src/*.html', ['html']);
 });
 
 // Default Task

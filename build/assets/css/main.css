@@ -1,0 +1,36 @@
+@media only screen and (max-width: 480px) {
+  .hero--home .hero__bg-container {
+    background-image: url("/assets/img/lake-tahoe-480.jpg"); } }
+
+@media only screen and (max-width: 768px) {
+  .hero--home .hero__bg-container {
+    background-image: url("/assets/img/lake-tahoe-768.jpg"); } }
+
+@media only screen and (max-width: 1024px) {
+  .hero--home .hero__bg-container {
+    background-image: url("/assets/img/lake-tahoe-1024.jpg"); } }
+
+@media only screen and (max-width: 1200px) {
+  .hero--home .hero__bg-container {
+    background-image: url("/assets/img/lake-tahoe-1200.jpg"); } }
+
+@media only screen and (min-width: 1600px) {
+  .hero--home .hero__bg-container {
+    background-image: url("/assets/img/lake-tahoe-1600.jpg"); } }
+
+.hero {
+  position: relative;
+  text-align: center;
+  vertical-align: middle a;
+    vertical-align-display: inline-block; }
+  .hero__bg-container {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; }
+  .hero__bg-container-overlay {
+    background: rgba(255, 231, 102, 0.3);
+    height: 100%;
+    padding: 12% 5% 8%;
+    width: 100%; }
