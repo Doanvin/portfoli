@@ -1,9 +1,14 @@
 .section--bio {
+  max-width: 1600px;
+  padding: 50px 0 !important;
+
   .secion__bio-box {
     background: $white;
+    width: 100%;
   }
 
   .section__bio-text {
     background: $white;
+    width: 100%;
   }
 }
