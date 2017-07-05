@@ -87,7 +87,7 @@
     text-align: center; }
 
 .portfolio--cards .portfolio__item .mdl-card {
-  height: 320px;
+  min-height: 320px;
   width: 100%; }
 
 .portfolio--cards .portfolio__item .mdl-card__title {

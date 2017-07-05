@@ -1,0 +1,14 @@
+.section--bio {
+  max-width: 980px; }
+  .section--bio .section__bio-box .mdl-card {
+    min-height: 320px;
+    width: 100%; }
+  .section--bio .section__bio-box .mdl-card__title {
+    background: url("/assets/img/dog.png") bottom right 15% no-repeat #46b6ac;
+    color: #fff; }
+  .section--bio .section__bio-text .mdl-card {
+    min-height: 320px;
+    width: 100%; }
+  .section--bio .section__bio-text .mdl-card__title {
+    background: url("/assets/img/dog.png") bottom right 15% no-repeat #46b6ac;
+    color: #fff; }

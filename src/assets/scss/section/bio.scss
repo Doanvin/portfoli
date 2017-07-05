@@ -1,14 +1,35 @@
-.section--bio {
-  max-width: 1600px;
-  padding: 50px 0 !important;
+$card-bg-color: #46b6ac;
+$white: #fff;
+$max-width-section--bio: 980px;
 
-  .secion__bio-box {
-    background: $white;
-    width: 100%;
+.section--bio {
+  // display: inline-block;
+  // margin: 0 auto;
+  max-width: $max-width-section--bio;
+  // position: relative;
+
+  .section__bio-box {
+
+    .mdl-card {
+      min-height: 320px;
+      width: 100%;
+    }
+
+    .mdl-card__title {
+      background: url('/assets/img/dog.png') bottom right 15% no-repeat $card-bg-color;
+      color: $white;
+    }
   }
 
   .section__bio-text {
-    background: $white;
-    width: 100%;
+    .mdl-card {
+      min-height: 320px;
+      width: 100%;
+    }
+
+    .mdl-card__title {
+      background: url('/assets/img/dog.png') bottom right 15% no-repeat $card-bg-color;
+      color: $white;
+    }
   }
 }
