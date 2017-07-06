@@ -4,11 +4,20 @@
     min-height: 320px;
     width: 100%; }
   .section--bio .section__bio-box .mdl-card__title {
-    background: url("/assets/img/dog.png") bottom right 15% no-repeat #46b6ac;
+    background: url("/assets/img/dog.png") bottom right 15% no-repeat #00bcd4;
     color: #fff; }
   .section--bio .section__bio-text .mdl-card {
     min-height: 320px;
     width: 100%; }
   .section--bio .section__bio-text .mdl-card__title {
-    background: url("/assets/img/dog.png") bottom right 15% no-repeat #46b6ac;
+    background: url("/assets/img/dog.png") bottom right 15% no-repeat #00bcd4;
     color: #fff; }
+
+.spacer--25 {
+  margin: 0 0 25px; }
+
+.spacer--50 {
+  margin: 0 0 50px; }
+
+.spacer--80 {
+  margin: 0 0 80px; }

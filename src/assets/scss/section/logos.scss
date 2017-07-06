@@ -1,7 +1,12 @@
 $light-grey: #dfdfdf;
 
-.section--logos {
+.section-wrapper--light-grey {
   background-color: $light-grey;
+}
+
+.section--logos {
+  margin: 0 auto;
+  max-width: 1600px;
 
   .section__logo-box {
     display: inline-block;

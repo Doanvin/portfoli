@@ -1,10 +1,11 @@
-$card-bg-color: #46b6ac;
+$card-bg-color: #00bcd4;
 $white: #fff;
+$max-width-portfolio--cards: 980px;
 
 .portfolio--cards {
+  max-width: $max-width-portfolio--cards;
+
   .portfolio__item {
-    // display: inline-block;
-    // margin: 0 auto;
 
     .mdl-card {
       min-height: 320px;
