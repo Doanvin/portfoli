@@ -5,10 +5,12 @@ $white: #fff;
 
 @media only screen and (max-width: 480px) {
   .hero--home {
-    h1 {padding: 8rem 0 1rem;}
+    h1 {padding: 0 0 1rem;}
 
     .hero__bg-container {
       background-image: url('/assets/img/mountains-day.png');
+      min-height: 580px;
+      margin: -50px 0 0;
 
       h1 {
         font-size: 48px;
@@ -17,6 +19,10 @@ $white: #fff;
         margin: 24px 0;
         padding: 11rem 0 1rem;
       }
+    }
+
+    .hero__bg-container-overlay {
+      min-height: 580px;
     }
   }
 }
@@ -88,11 +94,6 @@ $white: #fff;
 
 .hero {
   text-align: center;
-
-  h1 {
-    color: $white;
-    padding: 6.5rem 0 1rem;
-  }
   a {display: inline-block;}
 
   .hero__bg-container {
