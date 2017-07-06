@@ -1,14 +1,14 @@
 $card-bg-color: #00bcd4;
 $white: #fff;
-$max-width-section--bio: 980px;
+$max-width-about: 980px;
 
-.section--bio {
+.about {
   // display: inline-block;
   // margin: 0 auto;
-  max-width: $max-width-section--bio;
+  max-width: $max-width-about;
   // position: relative;
 
-  .section__bio-box {
+  .about__box {
 
     .mdl-card {
       min-height: 320px;
@@ -21,7 +21,7 @@ $max-width-section--bio: 980px;
     }
   }
 
-  .section__bio-text {
+  .about__text {
     .mdl-card {
       min-height: 320px;
       width: 100%;

@@ -8,7 +8,7 @@ $white: #fff;
     h1 {padding: 8rem 0 1rem;}
 
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-480.jpg');
+      background-image: url('/assets/img/mountains-day.png');
 
       h1 {
         font-size: 48px;
@@ -32,7 +32,7 @@ $white: #fff;
     }
 
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-768.jpg');
+      background-image: url('/assets/img/mountains-day.png');
     }
   }
 }
@@ -40,7 +40,7 @@ $white: #fff;
 @media only screen and (min-width: 769px) {
   .hero--home {
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-1024.jpg');
+      background-image: url('/assets/img/mountains-day.png');
 
       h1 {
         font-size: 78px;
@@ -56,7 +56,7 @@ $white: #fff;
 @media only screen and (min-width: 1024px) {
   .hero--home {
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-1200.jpg');
+      background-image: url('/assets/img/mountains-day.png');
 
       h1 {
         font-size: 78px;
@@ -81,7 +81,7 @@ $white: #fff;
     }
 
     .hero__bg-container {
-      background-image: url('/assets/img/lake-tahoe-1600.jpg');
+      background-image: url('/assets/img/mountains-day.png');
     }
   }
 }

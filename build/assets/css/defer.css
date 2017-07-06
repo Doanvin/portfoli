@@ -1,15 +1,15 @@
-.section--bio {
+.about {
   max-width: 980px; }
-  .section--bio .section__bio-box .mdl-card {
+  .about .about__box .mdl-card {
     min-height: 320px;
     width: 100%; }
-  .section--bio .section__bio-box .mdl-card__title {
+  .about .about__box .mdl-card__title {
     background: url("/assets/img/dog.png") bottom right 15% no-repeat #00bcd4;
     color: #fff; }
-  .section--bio .section__bio-text .mdl-card {
+  .about .about__text .mdl-card {
     min-height: 320px;
     width: 100%; }
-  .section--bio .section__bio-text .mdl-card__title {
+  .about .about__text .mdl-card__title {
     background: url("/assets/img/dog.png") bottom right 15% no-repeat #00bcd4;
     color: #fff; }
 

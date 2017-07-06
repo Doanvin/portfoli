@@ -2,7 +2,7 @@
   .hero--home h1 {
     padding: 8rem 0 1rem; }
   .hero--home .hero__bg-container {
-    background-image: url("/assets/img/lake-tahoe-480.jpg"); }
+    background-image: url("/assets/img/mountains-day.png"); }
     .hero--home .hero__bg-container h1 {
       font-size: 48px;
       letter-spacing: -.02em;
@@ -18,11 +18,11 @@
     margin: 24px 0;
     padding: 14rem 0 1rem; }
   .hero--home .hero__bg-container {
-    background-image: url("/assets/img/lake-tahoe-768.jpg"); } }
+    background-image: url("/assets/img/mountains-day.png"); } }
 
 @media only screen and (min-width: 769px) {
   .hero--home .hero__bg-container {
-    background-image: url("/assets/img/lake-tahoe-1024.jpg"); }
+    background-image: url("/assets/img/mountains-day.png"); }
     .hero--home .hero__bg-container h1 {
       font-size: 78px;
       letter-spacing: -.03em;
@@ -32,7 +32,7 @@
 
 @media only screen and (min-width: 1024px) {
   .hero--home .hero__bg-container {
-    background-image: url("/assets/img/lake-tahoe-1200.jpg"); }
+    background-image: url("/assets/img/mountains-day.png"); }
     .hero--home .hero__bg-container h1 {
       font-size: 78px;
       letter-spacing: -.03em;
@@ -49,7 +49,7 @@
     line-height: 1;
     padding: 17rem 0 3rem; }
   .hero--home .hero__bg-container {
-    background-image: url("/assets/img/lake-tahoe-1600.jpg"); } }
+    background-image: url("/assets/img/mountains-day.png"); } }
 
 .hero {
   text-align: center; }
@@ -82,10 +82,10 @@
 .section-wrapper--light-grey {
   background-color: #dfdfdf; }
 
-.section--logos {
+.logos {
   margin: 0 auto;
   max-width: 1600px; }
-  .section--logos .section__logo-box {
+  .logos .logos__logo-box {
     display: inline-block;
     margin: 0 auto;
     text-align: center; }
