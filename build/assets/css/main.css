@@ -3,8 +3,8 @@
     padding: 0 0 1rem; }
   .hero--home .hero__bg-container {
     background-image: url("/assets/img/mountains-day.png");
-    min-height: 580px;
-    margin: -50px 0 0; }
+    margin: -50px 0 0;
+    min-height: 580px; }
     .hero--home .hero__bg-container h1 {
       font-size: 48px;
       letter-spacing: -.02em;
@@ -92,7 +92,7 @@
     text-align: center; }
 
 .portfolio--cards {
-  max-width: 980px; }
+  max-width: 1200px; }
   .portfolio--cards .portfolio__item .mdl-card {
     min-height: 320px;
     width: 100%; }

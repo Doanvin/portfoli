@@ -1,9 +1,9 @@
 $card-bg-color: #00bcd4;
 $white: #fff;
-$max-width-portfolio--cards: 980px;
+$max-section-width: 1200px;
 
 .portfolio--cards {
-  max-width: $max-width-portfolio--cards;
+  max-width: $max-section-width;
 
   .portfolio__item {
 

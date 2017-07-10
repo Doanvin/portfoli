@@ -1,11 +1,11 @@
 $card-bg-color: #00bcd4;
 $white: #fff;
-$max-width-about: 980px;
+$max-section-width: 1200px;
 
 .about {
   // display: inline-block;
   // margin: 0 auto;
-  max-width: $max-width-about;
+  max-width: $max-section-width;
   // position: relative;
 
   .about__box {

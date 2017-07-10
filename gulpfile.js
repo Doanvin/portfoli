@@ -29,8 +29,8 @@ gulp.task('js', function(){
 gulp.task('sass', function () {
   return gulp.src('src/assets/scss/*.scss')
     .pipe(plumber())
-    .pipe(autoprefixer('last 2 versions'))
     .pipe(sass())
+    .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('build/assets/css'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(cleanCSS())
@@ -49,7 +49,7 @@ gulp.task('html', function() {
 // Img Task
 gulp.task('img', function() {
   return gulp.src('src/assets/img/**/*')
-    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    .pipe(cache(imagemin({progressive: true})))
     .pipe(gulp.dest('build/assets/img'))
     .pipe(reload({stream:true}));
 });
