@@ -1,13 +1,9 @@
-$dark-blue: rgba(0, 67, 115, 0.91);
-$transparent-3: rgba(38, 40, 0, 0.2);
-$white: #fff;
-
-
 @media only screen and (max-width: 480px) {
   .hero--home {
     h1 {padding: 0 0 1rem;}
 
     .hero__bg-container {
+      // mobile hero header img
       background-image: url('/assets/img/mountains-day.png');
       margin: -50px 0 0;
       min-height: 580px;
@@ -38,6 +34,7 @@ $white: #fff;
     }
 
     .hero__bg-container {
+      // tablet hero header img
       background-image: url('/assets/img/mountains-day.png');
     }
   }

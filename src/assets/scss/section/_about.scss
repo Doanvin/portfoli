@@ -1,7 +1,3 @@
-$card-bg-color: #00bcd4;
-$white: #fff;
-$max-section-width: 1200px;
-
 .about {
   // display: inline-block;
   // margin: 0 auto;
@@ -11,19 +7,19 @@ $max-section-width: 1200px;
   .about__box {
 
     .mdl-card {
-      min-height: 320px;
+      min-height: 380px;
       width: 100%;
     }
 
     .mdl-card__title {
-      background: url('/assets/img/dog.png') bottom right 15% no-repeat $card-bg-color;
+      background: url('/assets/img/profile.jpg') bottom right 50% no-repeat $card-bg-color;
       color: $white;
     }
   }
 
   .about__text {
     .mdl-card {
-      min-height: 320px;
+      min-height: 380px;
       width: 100%;
     }
 

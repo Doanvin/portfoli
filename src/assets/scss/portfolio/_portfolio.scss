@@ -1,0 +1,16 @@
+.portfolio--cards {
+  max-width: $max-section-width;
+
+  .portfolio__item {
+
+    .mdl-card {
+      min-height: 380px;
+      width: 100%;
+    }
+
+    .mdl-card__title {
+      background: url('/assets/img/profile.jpg') bottom right 50% no-repeat $portfolio-card-bg-color;
+      color: $white;
+    }
+  }
+}
